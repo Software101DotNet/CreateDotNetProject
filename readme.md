@@ -67,7 +67,7 @@ The script assumes that the following are already installed in your developer en
 
 If you want the project root folder to be a different name than the name of the project (.csproj) then give the root folder name as a second parameter. If only one parameter name is given, then it is used as both the project and the root folder name.
 
-    > ./CreateConsoleProject.zsh ***NewProjectName NewProjectRootFolderName*** 
+  ./CreateConsoleProject.zsh ***NewProjectName NewProjectRootFolderName*** 
 
 ### Known Issues
 
