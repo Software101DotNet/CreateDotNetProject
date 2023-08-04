@@ -51,11 +51,11 @@ dotnet sln "$ProjectName.sln" list
 
 # download the readme.md template for the new project
 echo -e "\e[33;4mDownload the readme.md template for the new project.\e[0m"
-curl -o readme.md -LJO https://raw.githubusercontent.com/Software101DotNet/CreateDotNetProject/main/readme-template.md
+curl -o readme.md -LJO https://raw.githubusercontent.com/Software101DotNet/CreateDotNetProject/master/readme-template.md
 
 # download the license file for the new project
 echo -e "\e[33;4mDownload the license file for the new project.\e[0m"
-curl -o license.txt -LJO https://raw.githubusercontent.com/Software101DotNet/CreateDotNetProject/main/license.txt
+curl -o license.txt -LJO https://raw.githubusercontent.com/Software101DotNet/CreateDotNetProject/master/license.txt
 
 # Add the files to the git repo.
 echo -e "\e[33;4mAdd the files to the git repo.\e[0m"
